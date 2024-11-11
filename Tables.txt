@@ -1,0 +1,14 @@
+
+
+login (username, password)
+User (User_ID, Name, Date_of_Birth, Medical_insurance, Medical_history, Street, City, State);
+User_phone_no (User_ID, phone_no);
+Organization(Organization_ID, Organization_name, Location, Government_approved);
+Doctor(Doctor_ID, Doctor_Name, Department_Name, organization_ID);
+Patient (Patient_ID, organ_req, reason_of_procurement, Doctor_ID, User_ID)
+Donor (Donor_ID, organ_donated, reason_of_donation, Organization_ID, User_ID)
+Organ_available (Organ_ID, Organ_name, Donor_ID)
+Transaction (Patient_ID, Organ_ID, Donor_ID, Date_of_transaction, Status)
+Organization_phone_no (Organization_ID, Phone_no)
+Doctor_phone_no (Doctor_ID, Phone_no)
+Organization_head (Organization_ID, Employee_ID, Name, Date_of_joining, Term_length)

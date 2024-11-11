@@ -724,6 +724,7 @@ def update_organization_details():
     mycursor.execute(qry2)
     res = mycursor.fetchone()
     return render_template("show_detail.html",res = res,fields=fields,not_found = False)
+
 # @app.route("/update_organization_head_page",methods = ['POST','GET'])
 # def update_organization_head_page():
 #     if not session.get('login'):

@@ -1,0 +1,12 @@
+DROP TABLE login;
+DROP TABLE User;
+DROP TABLE User_phone_no;
+DROP TABLE Organization;
+DROP TABLE Doctor;
+DROP TABLE Patient;
+DROP TABLE Donor;
+DROP TABLE Organ_available;
+DROP TABLE Transaction;
+DROP TABLE Organization_phone_no;
+DROP TABLE Doctor_phone_no;
+DROP TABLE Organization_head;
